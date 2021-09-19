@@ -19,10 +19,12 @@ divElems.forEach((e) => e.addEventListener("mouseout", timeRemoveColor));
 
 function addColor() {
   this.style["background-color"] = getRandColor();
+  this.style["box-shadow"] = "none";
 }
 
 function timeRemoveColor() {
   setTimeout(() => (this.style["background-color"] = "orange"), 5000);
+  setTimeout(() => (this.style["box-shadow"] = "0 0 2px #000"), 0);
 }
 
 function getRandColor() {
