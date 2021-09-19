@@ -1,0 +1,28 @@
+.items {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  box-shadow: 0 0 2px #000;
+  background: orange;
+  transition: background-color 2s;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 400px;
+  height: 400px;
+  background: darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
