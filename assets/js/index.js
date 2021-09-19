@@ -24,7 +24,7 @@ function addColor() {
 
 function timeRemoveColor() {
   setTimeout(() => (this.style["background-color"] = "orange"), 5000);
-  setTimeout(() => (this.style["box-shadow"] = "0 0 2px #000"), 0);
+  setTimeout(() => (this.style["box-shadow"] = "0 0 2px #000"), 5000);
 }
 
 function getRandColor() {
